@@ -1,0 +1,55 @@
+
+.testimonials-section {
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonials-section .testimonials {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+    margin-top:auto;
+}
+
+.testimonials-section .testimonials .testimonial {
+flex-basis: 30%;
+background-color: #fff;
+box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+padding: 2rem;
+text-align: center;
+}
+
+.testimonials-section .testimonials .testimonial p {
+font-size: 1.125rem;
+line-height: 1.75;
+color: #555;
+margin-top: 2rem;
+}
+
+.testimonials-section .testimonials .testimonial .author {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+margin-top: 2rem;
+}
+
+.testimonials-section .testimonials .testimonial .author img {
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+}
+
+.testimonials-section .testimonials .testimonial .author h3 {
+font-size: 1.125rem;
+font-weight: 500;
+color: #333;
+margin: 0;
+}

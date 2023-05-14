@@ -1,0 +1,95 @@
+contact-section {
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+    }
+    
+    .contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 2rem;
+    }
+    
+    .contact-section .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    }
+    
+    .contact-section .contact-form .form-group {flex-basis: 50%;
+    }
+    
+    .contact-section .contact-form .form-group input,
+    .contact-section .contact-form .form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    }
+    
+    .contact-section .contact-form .form-group input:focus,
+    .contact-section .contact-form .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    }
+    
+    .contact-section .contact-form .form-group input {
+    flex-basis: calc(50% - 1rem);
+    }
+    
+    .contact-section .contact-form .form-group textarea {
+    flex-basis: 100%;
+    resize: none;
+    height: 10rem;
+    }
+    
+    .contact-section .contact-form .form-group button {
+    background-color: #0077c0;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    .contact-section .contact-form .form-group button:hover {
+    background-color: #005ea3;
+    }
+    
+    .contact-section .contact-info {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    }
+    
+    .contact-section .contact-info .contact-item {
+    flex-basis: 33.3333%;
+    text-align: center;
+    }
+    
+    .contact-section .contact-info .contact-item i {
+    font-size: 3rem;
+    color: #0077c0;
+    margin-bottom: 1rem;
+    }
+    
+    .contact-section .contact-info .contact-item p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #555;
+    margin: 0;
+    }
+    
+    .contact-section .contact-info .map {
+    flex-basis: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+    }
+    
+    

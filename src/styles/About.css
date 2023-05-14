@@ -1,0 +1,46 @@
+/* src/styles/About.css */
+
+.about-section {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.about-section p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.about-section .amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.about-section .amenities .amenity {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-section .amenities .amenity img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.about-section .amenities .amenity p {
+  font-size: 1.125rem;
+  color: #333;
+  margin: 0;
+}
